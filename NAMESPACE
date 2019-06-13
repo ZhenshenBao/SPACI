@@ -1,0 +1,17 @@
+importFrom(KEGGgraph,parseKGML)
+importFrom(KEGGgraph,KEGGpathway2Graph)
+importFrom(KEGGgraph,nodes)
+importFrom(KEGGgraph,getKEGGnodeData)
+importFrom(KEGGgraph,getType)
+importFrom(KEGGgraph,edgeData)
+
+
+importFrom(KEGGgraph,subKEGGgraph)
+importFrom(igraph,igraph.from.graphNEL)
+importFrom(igraph,distances)
+importFrom(igraph,igraph.from.graphNEL)
+importFrom(igraph,graph_from_adjacency_matrix)
+
+importFrom("stats", "cor", "p.adjust", "quantile", "sd")
+
+exportPattern("SPACI","frequencyw","subGraphByNodeType")

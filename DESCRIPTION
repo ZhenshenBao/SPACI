@@ -1,0 +1,11 @@
+Package: SPACI
+Type: Package
+Title: Signaling Pathway Analysis Combined The Strength Variations Of Interactions Between Genes In Different Conditions
+Version: 0.1.0
+Author: Zhenshen Bao and Yunfei Bai
+Maintainer: Zhenshen Bao <bzsbao@163.com>
+Description: Signaling Pathway Analysis Combined The Strength Variations Of Interactions Between Genes In Different Conditions
+License: GPL
+Encoding: UTF-8
+LazyData: true
+Imports: SPIA,KEGGgraph,igraph
